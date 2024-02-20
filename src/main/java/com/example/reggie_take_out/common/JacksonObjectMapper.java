@@ -1,4 +1,4 @@
-package com.itheima.reggie.common;
+package com.example.reggie_take_out.common;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

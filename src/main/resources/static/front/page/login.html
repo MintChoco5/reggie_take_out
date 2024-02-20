@@ -72,7 +72,9 @@
                 async btnLogin(){
                     if(this.form.phone && this.form.code){
                         this.loading = true
-                        const res = await loginApi(this.form)
+                        // const res = await loginApi(this.form)
+                        // 注釋了上面1行，新增了下面1行
+                        const res = await loginApi({phone: this.form.phone, code:this.form.code})
                         this.loading = false
                         if(res.code === 1){
                             sessionStorage.setItem("userPhone",this.form.phone)

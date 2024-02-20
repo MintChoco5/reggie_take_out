@@ -1,4 +1,4 @@
-package com.itheima.reggie.entity;
+package com.example.reggie_take_out.entity;
 
 import lombok.Data;
 import java.time.LocalDateTime;

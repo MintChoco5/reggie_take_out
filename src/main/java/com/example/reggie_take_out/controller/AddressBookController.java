@@ -1,12 +1,12 @@
-package com.itheima.reggie.controller;
+package com.example.reggie_take_out.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.itheima.reggie.common.BaseContext;
-import com.itheima.reggie.common.R;
-import com.itheima.reggie.entity.AddressBook;
-import com.itheima.reggie.service.AddressBookService;
+import com.example.reggie_take_out.common.BaseContext;
+import com.example.reggie_take_out.common.R;
+import com.example.reggie_take_out.entity.AddressBook;
+import com.example.reggie_take_out.service.AddressBookService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;

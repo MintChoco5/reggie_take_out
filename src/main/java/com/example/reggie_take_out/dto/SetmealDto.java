@@ -1,7 +1,7 @@
-package com.itheima.reggie.dto;
+package com.example.reggie_take_out.dto;
 
-import com.itheima.reggie.entity.Setmeal;
-import com.itheima.reggie.entity.SetmealDish;
+import com.example.reggie_take_out.entity.Setmeal;
+import com.example.reggie_take_out.entity.SetmealDish;
 import lombok.Data;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.itheima.reggie.utils;
+package com.example.reggie_take_out.utils;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;

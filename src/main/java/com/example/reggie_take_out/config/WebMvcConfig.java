@@ -1,4 +1,4 @@
-package com.itheima.reggie.config;
+package com.example.reggie_take_out.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,8 +10,8 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalTimeSerializer;
-import com.itheima.reggie.common.JacksonObjectMapper;
-import com.itheima.reggie.entity.Employee;
+import com.example.reggie_take_out.common.JacksonObjectMapper;
+import com.example.reggie_take_out.entity.Employee;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -39,8 +39,8 @@ public class WebMvcConfig extends WebMvcConfigurationSupport {
     @Override
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
         log.info("开始进行静态资源映射...");
-        registry.addResourceHandler("/backend/**").addResourceLocations("classpath:/backend/");
-        registry.addResourceHandler("/front/**").addResourceLocations("classpath:/front/");
+        registry.addResourceHandler("/backend/**").addResourceLocations("classpath:/static/backend/");
+        registry.addResourceHandler("/front/**").addResourceLocations("classpath:/static/front/");
     }
 
     /**
